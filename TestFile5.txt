@@ -1,0 +1,46 @@
+a1826780: Vaibhav Aggarwal
+
+Assigning random values to 5 battleships on a 10x10 grid
+
+Expected Output: A vector with x,y values, both between 1 and 10
+Procured Output:
+Battleship 1                      Battleship 2             Battleship 3         Battleship4         Battleship5
+[2,6]                                [4,10]                   [2,5]               [1,4]                [3,7]
+[1,2]                                [1,7]                    [7,8]               [5,10]               [9,8]
+[3,4]                                [8,1]                    [3,2]               [10,10]              [7,2]
+[2,5]                                [7,2]                    [8,4]               [4,6]                [2,8]
+[1,1]                                [6,2]                    [8,10]              [5,5]                [5,6]
+
+For 1st trial (Line 8):
+If difficulty is 'free,' and the number of hints are being asked, then if the user types 9000, a secret hack is used to show the co-ordinates of all battleships
+Expected Output:
+General, after decrypting enemy transmissions we have decoded their locations, as listed below:
+[2,6]
+[4,10]
+[2,5]
+[1,4]
+[3,7]
+Procured Output:
+General, after decrypting enemy transmissions we have decoded their locations, as listed below:
+[2,6]
+[4,10]
+[2,5]
+[1,4]
+[3,7]
+
+A while loop is used to ask the user if the user wants to play the game again
+Expected Output:
+(If 'yes' then code repeats otherwise code ends)
+Trial 0          Option           Code
+Trial 1           yes             repeats
+Trial 2           no              ends
+Trial 3           no              ends
+Trial 4           yes             repeats
+Trial 5           no              ends
+Procured Output:
+Trial 0          Option           Code
+Trial 1           yes             repeats
+Trial 2           no              ends
+Trial 3           no              ends
+Trial 4           yes             repeats
+Trial 5           no              ends

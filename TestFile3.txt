@@ -1,0 +1,52 @@
+a1826780: Vaibhav Aggarwal
+
+If the difficulty of the games is chosen by the user, the number of tries should correspond to the pre-determined number except int he case of "free" mode
+
+Expected Output: If difficulty is easy, 'n' is 60
+                 If difficulty is hard, 'n' is 40
+                 If difficulty is grandmaster, 'n' is 20
+                 If difficulty is free, 'n' is chosen by the user
+                 If difficulty is not one of the above, 'n' is given the value infinity
+Procured Output:
+Easy             Hard             Grandmaster              Free         Any Other Difficulty
+60                40                 20                    1000              infinity (Due to a limit, matlab stops after 9223372036854775806 iterations)
+60                40                 20                     -4               infinity (Due to a limit, matlab stops after 9223372036854775806 iterations)
+60                40                 20                     10               infinity (Due to a limit, matlab stops after 9223372036854775806 iterations)
+60                40                 20                      0               infinity (Due to a limit, matlab stops after 9223372036854775806 iterations)
+60                40                 20                      5               infinity (Due to a limit, matlab stops after 9223372036854775806 iterations)
+
+Assigning random values to 3 battleships on a 10x10 grid
+
+Expected Output: A vector with x,y values, both between 1 and 10
+Procured Output:
+Battleship 1                        Battleship 2           Battleship 3
+[8,4]                                [7,2]                   [8,1]
+[3,1]                                [1,9]                   [7,4]
+[10,1]                               [5,4]                   [8,8]
+[2,5]                                [5,7]                   [8,8]
+[3,7]                                [7,2]                   [2,5]
+
+Calculating the number of battleships hit and storing them in a variable name 'sum'
+
+Expected Output: The number of battleships hit correspond to the sum in easy, hard, grandmaster or free mode
+Procured Output:
+Trial 1 (60 trials): 2
+Trial 2 (40 trials): 1
+Trial 3 (20 trials): 0
+Trial 4 (10 trials): 0
+Trial 5 (100 trials): 3
+
+If sum=3, then we should get a displayed message, "Congratulations, you won against the invading alien battleships!" or else we get the message "Unfortunately, you lost...Better luck next time!"
+Based on the trials above:
+Expected Output:
+Trial 1:Unfortunately, you lost...Better luck next time!
+Trial 2:Unfortunately, you lost...Better luck next time!
+Trial 3:Unfortunately, you lost...Better luck next time!
+Trial 4:Unfortunately, you lost...Better luck next time!
+Trial 5:Congratulations, you won against the invading alien battleships!
+Procured Output:
+Trial 1:Unfortunately, you lost...Better luck next time!
+Trial 2:Unfortunately, you lost...Better luck next time!
+Trial 3:Unfortunately, you lost...Better luck next time!
+Trial 4:Unfortunately, you lost...Better luck next time!
+Trial 5:Congratulations, you won against the invading alien battleships!

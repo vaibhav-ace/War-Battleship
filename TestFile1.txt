@@ -1,0 +1,48 @@
+a1826780: Vaibhav Aggarwal
+
+Assigning random values to 2 battleships on a 10x10 grid
+
+Expected Output: A vector with x,y values, both between 1 and 10
+Procured Output:
+Battleship 1                        Battleship 2
+[9,10]                              [2,10]
+[5,4]                               [4,8]
+[5,9]                               [3,9]
+[5,10]                              [1,8]
+[8,8]                               [7,1]
+
+After 30 iterations in the for loop, checking how many hits the player got
+
+Expected Output: For the 30 iteratitons if the randomly entered 'coordinate' variable is the same as the position vector of battleship1 or battleship2, disp "HIT" otherwise disp "MISS"
+Procured Output:
+Test 1         Test 2         Test 3
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+HIT            MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           HIT            MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
+MISS           MISS           MISS
