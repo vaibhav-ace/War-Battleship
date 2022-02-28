@@ -1,5 +1,3 @@
-a1826780: Vaibhav Aggarwal
-
 Assigning random values to 2 battleships on a 10x10 grid
 
 Expected Output: A vector with x,y values, both between 1 and 10
