@@ -1,5 +1,3 @@
-%a1826780: Vaibhav Aggarwal
-
 clear
 clc
 
