@@ -1,5 +1,3 @@
-a1826780: Vaibhav Aggarwal
-
 If the difficulty of the games is chosen by the user, the number of tries should correspond to the pre-determined number except int he case of "free" mode
 
 Expected Output: If difficulty is easy, 'n' is 60
