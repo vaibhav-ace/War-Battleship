@@ -1,1 +1,1 @@
-# Battleship--MATLAB-
+# Battleship-MATLAB
